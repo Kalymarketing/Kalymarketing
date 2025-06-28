@@ -1,16 +1,150 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Banners de Jogos Lado a Lado</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
 
-<!--
-**Kalymarketing/Kalymarketing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    .banner-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: nowrap; /* N�o quebra linha */
+      overflow-x: auto; /* Scroll horizontal se tiver muitos banners */
+      padding: 10px;
+    }
 
-Here are some ideas to get you started:
+    .banner {
+      flex: 0 0 auto;
+      width: 300px;
+      background: #222;
+      border: 2px solid #444;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    .banner:hover {
+      transform: scale(1.05);
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .banner-title {
+      padding: 10px;
+      background-color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;"> Galeria de Jogos</h2>
+
+  <div class="banner-container">
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 1">
+      <div class="banner-title"> Aventura �pica</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 2">
+      <div class="banner-title"> Corrida Insana</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 3">
+      <div class="banner-title"> Guerra Medieval</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 4">
+      <div class="banner-title"> Invas�o Alien�gena</div>
+    </div>
+  </div>
+
+</body>
+</html>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .banner-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: nowrap; /* N�o quebra linha */
+      overflow-x: auto; /* Scroll horizontal se tiver muitos banners */
+      padding: 10px;
+    }
+
+    .banner {
+      flex: 0 0 auto;
+      width: 200px;
+      background: #222;
+      border: 2px solid #444;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .banner:hover {
+      transform: scale(1.05);
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .banner-title {
+      padding: 10px;
+      background-color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h2 style="text-align:center;"> Galeria de Jogos</h2>
+
+  <div class="banner-container">
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 1">
+      <div class="banner-title"> Aventura �pica</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 2">
+      <div class="banner-title"> Corrida Insana</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 3">
+      <div class="banner-title"> Guerra Medieval</div>
+    </div>
+    <div class="banner">
+      <img src="https://i.postimg.cc/Pqkv37NJ/Wollplay-raund-6.png" alt="Jogo 4">
+      <div class="banner-title"> Invas�o Alien�gena</div>
+    </div>
+  </div>
+
+</body>
+</html>
