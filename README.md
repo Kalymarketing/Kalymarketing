@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -49,7 +48,6 @@
       font-weight: bold;
     }
   </style>
-</head>
 <body>
 
   <h2 style="text-align:center;"> Galeria de Jogos</h2>
@@ -147,4 +145,3 @@
   </div>
 
 </body>
-</html>
